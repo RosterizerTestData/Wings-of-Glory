@@ -1,0 +1,2263 @@
+{
+  "name": "WoGI",
+  "game": "Wings of Glory WWI",
+  "genre": "generic",
+  "publisher": "Ares",
+  "url": "https://www.aresgames.eu/category/games/ww1-wings-of-glory-games",
+  "info": "",
+  "manifest": {
+    "assetTaxonomy": {
+      "Bomber": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "keywords": {
+          "Era": []
+        },
+        "stats": {
+          "Ceiling": {
+            "label": "Ce"
+          },
+          "Climb": {
+            "statOrder": 5,
+            "label": "Cl"
+          },
+          "Damage Front": {
+            "label": "Df",
+            "groupOrder": 2,
+            "group": "Damage",
+            "ranks": {
+              "0": {
+                "hotkey": "0",
+                "label": "-",
+                "order": 0
+              },
+              "1": {
+                "hotkey": "b",
+                "label": "B",
+                "tracking": {
+                  "Points": 28
+                },
+                "order": 1
+              },
+              "2": {
+                "hotkey": "a",
+                "label": "A",
+                "tracking": {
+                  "Points": 48
+                },
+                "order": 2
+              },
+              "3": {
+                "hotkey": "3",
+                "label": "AB",
+                "tracking": {
+                  "Points": 72
+                },
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Damage Rear": {
+            "label": "Dr",
+            "groupOrder": 2,
+            "group": "Damage",
+            "ranks": {
+              "0": {
+                "hotkey": "0",
+                "label": "-",
+                "order": 0
+              },
+              "1": {
+                "hotkey": "b",
+                "label": "B",
+                "tracking": {
+                  "Points": 28
+                },
+                "order": 1
+              },
+              "2": {
+                "hotkey": "a",
+                "label": "A",
+                "tracking": {
+                  "Points": 48
+                },
+                "order": 2
+              },
+              "3": {
+                "hotkey": "3",
+                "label": "BBBB",
+                "tracking": {
+                  "Points": 112
+                },
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Health": {
+            "statOrder": 3,
+            "label": "H"
+          },
+          "Maneuver": {
+            "statOrder": 1,
+            "label": "M",
+            "groupOrder": 1,
+            "group": "Movement",
+            "ranks": {
+              "0": {
+                "hotkey": "0",
+                "label": "-",
+                "order": 0
+              },
+              "1": {
+                "hotkey": "a",
+                "label": "XA",
+                "order": 1
+              },
+              "2": {
+                "hotkey": "b",
+                "label": "XB",
+                "order": 2
+              },
+              "3": {
+                "hotkey": "c",
+                "label": "XC",
+                "order": 3
+              },
+              "4": {
+                "hotkey": "d",
+                "label": "XD",
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Points": {
+            "tracked": true
+          },
+          "Speed": {
+            "statOrder": 4,
+            "label": "Sp",
+            "groupOrder": 1,
+            "group": "Movement",
+            "ranks": {
+              "0": {
+                "hotkey": "0",
+                "label": "-",
+                "order": 0
+              },
+              "2": {
+                "label": "2.0",
+                "order": 1,
+                "statType": "value",
+                "number": 2
+              },
+              "2.3": {
+                "order": 2,
+                "statType": "value",
+                "number": 2.3
+              },
+              "2.6": {
+                "order": 3,
+                "statType": "value",
+                "number": 2.6
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      },
+      "Plane": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "keywords": {
+          "Era": []
+        },
+        "stats": {
+          "Ceiling": {
+            "label": "Ce"
+          },
+          "Climb": {
+            "statOrder": 5,
+            "label": "Cl"
+          },
+          "Damage Front": {
+            "label": "Df",
+            "groupOrder": 2,
+            "group": "Damage",
+            "ranks": {
+              "0": {
+                "hotkey": "0",
+                "label": "-",
+                "order": 0
+              },
+              "1": {
+                "hotkey": "b",
+                "label": "B",
+                "tracking": {
+                  "Points": 28
+                },
+                "order": 1
+              },
+              "2": {
+                "hotkey": "a",
+                "label": "A",
+                "tracking": {
+                  "Points": 48
+                },
+                "order": 2
+              },
+              "3": {
+                "hotkey": "3",
+                "label": "AB",
+                "tracking": {
+                  "Points": 72
+                },
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Damage Rear": {
+            "label": "Dr",
+            "ranks": {
+              "-": {
+                "order": 0,
+                "hotkey": "0"
+              },
+              "A": {
+                "order": 1,
+                "hotkey": "a",
+                "tracking": {
+                  "Points": 48
+                }
+              },
+              "B": {
+                "order": 2,
+                "hotkey": "b",
+                "tracking": {
+                  "Points": 28
+                }
+              },
+              "BB": {
+                "order": 3,
+                "hotkey": "2",
+                "tracking": {
+                  "Points": 113
+                }
+              },
+              "BBBB": {
+                "order": 4,
+                "hotkey": "4",
+                "tracking": {
+                  "Points": 112
+                }
+              }
+            },
+            "group": "Damage",
+            "groupOrder": 2,
+            "statType": "rank"
+          },
+          "Health": {
+            "statOrder": 3,
+            "label": "H"
+          },
+          "Maneuver": {
+            "statOrder": 1,
+            "label": "M",
+            "groupOrder": 1,
+            "group": "Movement",
+            "ranks": {
+              "0": {
+                "hotkey": "0",
+                "label": "-",
+                "order": 0
+              },
+              "1": {
+                "hotkey": "a",
+                "label": "A",
+                "tracking": {
+                  "Points": 8
+                },
+                "order": 1
+              },
+              "2": {
+                "hotkey": "b",
+                "label": "B",
+                "tracking": {
+                  "Points": 8
+                },
+                "order": 2
+              },
+              "3": {
+                "hotkey": "c",
+                "label": "C",
+                "tracking": {
+                  "Points": 14
+                },
+                "order": 3
+              },
+              "4": {
+                "hotkey": "d",
+                "label": "D",
+                "tracking": {
+                  "Points": 13
+                },
+                "order": 4
+              },
+              "5": {
+                "hotkey": "e",
+                "label": "E",
+                "tracking": {
+                  "Points": 8
+                },
+                "order": 5
+              },
+              "6": {
+                "hotkey": "f",
+                "label": "F",
+                "tracking": {
+                  "Points": 14
+                },
+                "order": 6
+              },
+              "8": {
+                "hotkey": "h",
+                "label": "H",
+                "tracking": {
+                  "Points": 6
+                },
+                "order": 8
+              },
+              "9": {
+                "hotkey": "i",
+                "label": "I",
+                "tracking": {
+                  "Points": 9
+                },
+                "order": 9
+              },
+              "10": {
+                "hotkey": "j",
+                "label": "J",
+                "tracking": {
+                  "Points": 7
+                },
+                "order": 10
+              },
+              "11": {
+                "hotkey": "k",
+                "label": "K",
+                "tracking": {
+                  "Points": 5
+                },
+                "order": 11
+              },
+              "12": {
+                "hotkey": "l",
+                "label": "L",
+                "tracking": {
+                  "Points": 21
+                },
+                "order": 12
+              },
+              "13": {
+                "hotkey": "m",
+                "label": "M",
+                "tracking": {
+                  "Points": 19
+                },
+                "order": 13
+              },
+              "14": {
+                "hotkey": "n",
+                "label": "N",
+                "tracking": {
+                  "Points": 14
+                },
+                "order": 14
+              },
+              "15": {
+                "hotkey": "o",
+                "label": "O",
+                "tracking": {
+                  "Points": 18
+                },
+                "order": 15
+              },
+              "16": {
+                "hotkey": "p",
+                "label": "P",
+                "tracking": {
+                  "Points": 8
+                },
+                "order": 16
+              },
+              "17": {
+                "hotkey": "q",
+                "label": "Q",
+                "tracking": {
+                  "Points": 10
+                },
+                "order": 17
+              },
+              "18": {
+                "hotkey": "r",
+                "label": "R",
+                "tracking": {
+                  "Points": 6
+                },
+                "order": 18
+              },
+              "19": {
+                "hotkey": "s",
+                "label": "S",
+                "tracking": {
+                  "Points": 7
+                },
+                "order": 19
+              },
+              "20": {
+                "hotkey": "t",
+                "label": "T",
+                "tracking": {
+                  "Points": 5
+                },
+                "order": 20
+              },
+              "21": {
+                "hotkey": "u",
+                "label": "U",
+                "tracking": {
+                  "Points": 14
+                },
+                "order": 21
+              },
+              "22": {
+                "hotkey": "v",
+                "label": "V",
+                "tracking": {
+                  "Points": 6
+                },
+                "order": 22
+              },
+              "23": {
+                "hotkey": "w",
+                "label": "W",
+                "tracking": {
+                  "Points": 9
+                },
+                "order": 23
+              },
+              "24": {
+                "hotkey": "x",
+                "label": "X",
+                "tracking": {
+                  "Points": 11
+                },
+                "order": 24
+              },
+              "25": {
+                "hotkey": "y",
+                "label": "Y",
+                "tracking": {
+                  "Points": 4
+                },
+                "order": 25
+              }
+            },
+            "statType": "rank"
+          },
+          "Points": {
+            "tracked": true
+          },
+          "Speed": {
+            "statOrder": 4,
+            "label": "Sp",
+            "groupOrder": 1,
+            "group": "Movement",
+            "ranks": {
+              "0": {
+                "hotkey": "0",
+                "label": "-",
+                "order": 0
+              },
+              "6": {
+                "hotkey": "6",
+                "label": "6.0",
+                "order": 4,
+                "statType": "value",
+                "number": 6
+              },
+              "2.9": {
+                "hotkey": "2",
+                "order": 1,
+                "statType": "value",
+                "number": 2.9
+              },
+              "3.5": {
+                "hotkey": "3",
+                "order": 2,
+                "statType": "value",
+                "number": 3.5
+              },
+              "4.7": {
+                "hotkey": "4",
+                "order": 3,
+                "statType": "value",
+                "number": 4.7
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      "Bomber§Caproni Ca.3": {
+        "classification": "Bomber",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "Damage Rear": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 25,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 87,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Caproni Ca.3"
+      },
+      "Bomber§Gotha G.V": {
+        "classification": "Bomber",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 13,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Damage Rear": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 27,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 86,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Gotha G.V"
+      },
+      "Bomber§Handley-Page 0/400": {
+        "classification": "Bomber",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 7,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 7,
+            "statType": "numeric"
+          },
+          "Damage Front": {},
+          "Damage Rear": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 30,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 101,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Handley-Page 0/400"
+      },
+      "Bomber§Zeppelin Staaken R.VI": {
+        "classification": "Bomber",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Damage Rear": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 34,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 99,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Zeppelin Staaken R.VI"
+      },
+      "Plane§Airco DH.2": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Early",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Damage Rear": {
+            "ranks": {
+              "B": {
+                "order": 0
+              },
+              "A": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 13,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 22,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Airco DH.2"
+      },
+      "Plane§Airco DH.4": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 11,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "dynamic": true,
+            "statType": "rank"
+          },
+          "Damage Rear": {
+            "dynamic": true
+          },
+          "Health": {
+            "value": 15,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 27,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Airco DH.4"
+      },
+      "Plane§Albatros D.II": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 11,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "dynamic": true,
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 24,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Albatros D.II"
+      },
+      "Plane§Albatros D.III": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 11,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 24,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Albatros D.III"
+      },
+      "Plane§Albatros D.Va": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 13,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 15,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 26,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Albatros D.Va"
+      },
+      "Plane§Albatross C.III": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Early"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Damage Rear": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 21,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Albatross C.III"
+      },
+      "Plane§Aviatik D.I": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "dynamic": true,
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 24,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Aviatik D.I"
+      },
+      "Plane§Breguet BR.14 A2": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Damage Rear": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 17,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 28,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Breguet BR.14 A2"
+      },
+      "Plane§Breguet BR.14 B2": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "dynamic": true,
+            "statType": "rank"
+          },
+          "Damage Rear": {
+            "dynamic": true
+          },
+          "Health": {
+            "value": 17,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 29,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Breguet BR.14 B2"
+      },
+      "Plane§Bristol F.2B Fighter": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "dynamic": true,
+            "statType": "rank"
+          },
+          "Damage Rear": {
+            "dynamic": true
+          },
+          "Health": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 28,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Bristol F.2B Fighter"
+      },
+      "Plane§Fokker A.III": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Early"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 9,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "Health": {
+            "value": 11,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 15,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Fokker A.III"
+      },
+      "Plane§Fokker D.VII": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 31,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Fokker D.VII"
+      },
+      "Plane§Fokker DR.I": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 13,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 13,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 24,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Fokker DR.I"
+      },
+      "Plane§Fokker E.III": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Early"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 9,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "Health": {
+            "value": 11,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 15,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Fokker E.III"
+      },
+      "Plane§Fokker E.V": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 15,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 27,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Fokker E.V"
+      },
+      "Plane§Halberstadt CL.II": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Damage Rear": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 28,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Halberstadt CL.II"
+      },
+      "Plane§Halberstadt D.III": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Early",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Health": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 24,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Halberstadt D.III"
+      },
+      "Plane§Hannover CL.IIIa": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 15,
+            "statType": "numeric"
+          },
+          "Damage Rear": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 28,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Hannover CL.IIIa"
+      },
+      "Plane§Hanriot DH.1": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "dynamic": true,
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 25,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Hanriot DH.1"
+      },
+      "Plane§Macchi M.5": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 15,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 27,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Macchi M.5"
+      },
+      "Plane§Morane-Saulnier Type N": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Early"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 9,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "Health": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 13,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Morane-Saulnier Type N"
+      },
+      "Plane§Nieuport 11": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Early"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 11,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Health": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Nieuport 11"
+      },
+      "Plane§Nieuport 16": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Other"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Health": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Nieuport 16"
+      },
+      "Plane§Nieuport 17": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Early",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "dynamic": true,
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 19,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Nieuport 17"
+      },
+      "Plane§Nieuport 23": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Early",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Health": {
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 19,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Nieuport 23"
+      },
+      "Plane§Nieuport Ni.28": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 13,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 25,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Nieuport Ni.28"
+      },
+      "Plane§Pfalz D.III": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 11,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 28,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Pfalz D.III"
+      },
+      "Plane§Phonix D.I": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 13,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 15,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 25,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Phonix D.I"
+      },
+      "Plane§R.E. 8": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Damage Rear": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 13,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 20,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "R.E. 8"
+      },
+      "Plane§Roland C.II": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Damage Front": {},
+          "Damage Rear": {
+            "dynamic": true
+          },
+          "Health": {
+            "value": 15,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 31,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Roland C.II"
+      },
+      "Plane§Rumpler C.IV.C": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Damage Rear": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 15,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 24,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Rumpler C.IV.C"
+      },
+      "Plane§SE5": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": -61,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "SE5"
+      },
+      "Plane§SE5a": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 30,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "SE5a"
+      },
+      "Plane§Siemens-Schukert D.III": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 17,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 27,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Siemens-Schukert D.III"
+      },
+      "Plane§Sopwith 1 1/2 Strutter": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Early",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 10,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Damage Rear": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 24,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Sopwith 1 1/2 Strutter"
+      },
+      "Plane§Sopwith 1 1/2 Strutter Comic": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Early",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 11,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 24,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Sopwith 1 1/2 Strutter Comic"
+      },
+      "Plane§Sopwith Camel": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 13,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 15,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 24,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Sopwith Camel"
+      },
+      "Plane§Sopwith Pup": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Other"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Health": {
+            "value": 12,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Sopwith Pup"
+      },
+      "Plane§Sopwith Snipe": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 30,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Sopwith Snipe"
+      },
+      "Plane§Sopwith Triplane": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "dynamic": true,
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 13,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 24,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Sopwith Triplane"
+      },
+      "Plane§Spad S.VII": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Health": {
+            "value": 15,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 30,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Spad S.VII"
+      },
+      "Plane§Spad XIII": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late",
+            "Mid"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 14,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Damage Front": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 29,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Spad XIII"
+      },
+      "Plane§Ufag C.I": {
+        "classification": "Plane",
+        "keywords": {
+          "Era": [
+            "Late"
+          ]
+        },
+        "stats": {
+          "Ceiling": {
+            "value": 11,
+            "statType": "numeric"
+          },
+          "Climb": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Damage Rear": {
+            "statType": "rank"
+          },
+          "Health": {
+            "value": 16,
+            "statType": "numeric"
+          },
+          "Maneuver": {
+            "statType": "rank"
+          },
+          "Points": {
+            "value": 21,
+            "statType": "numeric"
+          },
+          "Speed": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Ufag C.I"
+      },
+      "Roster§Squadron": {
+        "allowed": {
+          "classifications": [
+            "Bomber",
+            "Plane"
+          ]
+        },
+        "aspects": {
+          "Describe": true,
+          "Lock Qty": true,
+          "Rename": true,
+          "Type": "conceptual",
+          "Unique": true
+        },
+        "classification": "Roster",
+        "stats": {
+          "Points": {
+            "tracked": true
+          }
+        },
+        "designation": "Squadron"
+      }
+    },
+    "gameModes": {}
+  },
+  "revision": null,
+  "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution."
+}
