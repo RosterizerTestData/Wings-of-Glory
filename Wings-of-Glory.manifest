@@ -1,10 +1,11 @@
 {
   "name": "Wings of Glory",
+  "revision": null,
   "game": "Wings of Glory WWI",
   "genre": "generic",
   "publisher": "Ares",
   "url": "https://www.aresgames.eu/category/games/ww1-wings-of-glory-games",
-  "info": "",
+  "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution.",
   "manifest": {
     "assetTaxonomy": {
       "Bomber": {
@@ -518,7 +519,6 @@
     },
     "assetCatalog": {
       "Bomber§Caproni Ca.3": {
-        "classification": "Bomber",
         "keywords": {
           "Era": [
             "Late",
@@ -551,11 +551,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Caproni Ca.3"
+        }
       },
       "Bomber§Gotha G.V": {
-        "classification": "Bomber",
         "keywords": {
           "Era": [
             "Late",
@@ -588,11 +586,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Gotha G.V"
+        }
       },
       "Bomber§Handley-Page 0/400": {
-        "classification": "Bomber",
         "keywords": {
           "Era": [
             "Late",
@@ -626,11 +622,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Handley-Page 0/400"
+        }
       },
       "Bomber§Zeppelin Staaken R.VI": {
-        "classification": "Bomber",
         "keywords": {
           "Era": [
             "Late",
@@ -663,11 +657,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Zeppelin Staaken R.VI"
+        }
       },
       "Plane§Airco DH.2": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Early",
@@ -708,11 +700,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Airco DH.2"
+        }
       },
       "Plane§Airco DH.4": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -749,11 +739,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Airco DH.4"
+        }
       },
       "Plane§Albatros D.II": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Mid"
@@ -786,11 +774,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Albatros D.II"
+        }
       },
       "Plane§Albatros D.III": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Mid"
@@ -822,11 +808,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Albatros D.III"
+        }
       },
       "Plane§Albatros D.Va": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -859,11 +843,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Albatros D.Va"
+        }
       },
       "Plane§Albatross C.III": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Early"
@@ -895,11 +877,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Albatross C.III"
+        }
       },
       "Plane§Aviatik D.I": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -933,11 +913,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Aviatik D.I"
+        }
       },
       "Plane§Breguet BR.14 A2": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -970,11 +948,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Breguet BR.14 A2"
+        }
       },
       "Plane§Breguet BR.14 B2": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1011,11 +987,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Breguet BR.14 B2"
+        }
       },
       "Plane§Bristol F.2B Fighter": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1052,11 +1026,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Bristol F.2B Fighter"
+        }
       },
       "Plane§Fokker A.III": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Early"
@@ -1085,11 +1057,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Fokker A.III"
+        }
       },
       "Plane§Fokker D.VII": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late"
@@ -1121,11 +1091,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Fokker D.VII"
+        }
       },
       "Plane§Fokker DR.I": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1158,11 +1126,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Fokker DR.I"
+        }
       },
       "Plane§Fokker E.III": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Early"
@@ -1191,11 +1157,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Fokker E.III"
+        }
       },
       "Plane§Fokker E.V": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1228,11 +1192,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Fokker E.V"
+        }
       },
       "Plane§Halberstadt CL.II": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1265,11 +1227,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Halberstadt CL.II"
+        }
       },
       "Plane§Halberstadt D.III": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Early",
@@ -1299,11 +1259,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Halberstadt D.III"
+        }
       },
       "Plane§Hannover CL.IIIa": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1336,11 +1294,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Hannover CL.IIIa"
+        }
       },
       "Plane§Hanriot DH.1": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1374,11 +1330,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Hanriot DH.1"
+        }
       },
       "Plane§Macchi M.5": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1411,11 +1365,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Macchi M.5"
+        }
       },
       "Plane§Morane-Saulnier Type N": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Early"
@@ -1444,11 +1396,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Morane-Saulnier Type N"
+        }
       },
       "Plane§Nieuport 11": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Early"
@@ -1477,11 +1427,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Nieuport 11"
+        }
       },
       "Plane§Nieuport 16": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Other"
@@ -1506,11 +1454,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Nieuport 16"
+        }
       },
       "Plane§Nieuport 17": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Early",
@@ -1544,11 +1490,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Nieuport 17"
+        }
       },
       "Plane§Nieuport 23": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Early",
@@ -1578,11 +1522,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Nieuport 23"
+        }
       },
       "Plane§Nieuport Ni.28": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1615,11 +1557,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Nieuport Ni.28"
+        }
       },
       "Plane§Pfalz D.III": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1652,11 +1592,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Pfalz D.III"
+        }
       },
       "Plane§Phonix D.I": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1689,11 +1627,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Phonix D.I"
+        }
       },
       "Plane§R.E. 8": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Mid"
@@ -1725,11 +1661,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "R.E. 8"
+        }
       },
       "Plane§Roland C.II": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1763,11 +1697,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Roland C.II"
+        }
       },
       "Plane§Rumpler C.IV.C": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1800,11 +1732,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Rumpler C.IV.C"
+        }
       },
       "Plane§SE5": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1837,11 +1767,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "SE5"
+        }
       },
       "Plane§SE5a": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -1874,11 +1802,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "SE5a"
+        }
       },
       "Plane§Siemens-Schukert D.III": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late"
@@ -1910,11 +1836,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Siemens-Schukert D.III"
+        }
       },
       "Plane§Sopwith 1 1/2 Strutter": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Early",
@@ -1947,11 +1871,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Sopwith 1 1/2 Strutter"
+        }
       },
       "Plane§Sopwith 1 1/2 Strutter Comic": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Early",
@@ -1984,11 +1906,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Sopwith 1 1/2 Strutter Comic"
+        }
       },
       "Plane§Sopwith Camel": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -2021,11 +1941,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Sopwith Camel"
+        }
       },
       "Plane§Sopwith Pup": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Other"
@@ -2050,11 +1968,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Sopwith Pup"
+        }
       },
       "Plane§Sopwith Snipe": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late"
@@ -2086,11 +2002,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Sopwith Snipe"
+        }
       },
       "Plane§Sopwith Triplane": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -2124,11 +2038,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Sopwith Triplane"
+        }
       },
       "Plane§Spad S.VII": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Mid"
@@ -2157,11 +2069,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Spad S.VII"
+        }
       },
       "Plane§Spad XIII": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late",
@@ -2194,11 +2104,9 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Spad XIII"
+        }
       },
       "Plane§Ufag C.I": {
-        "classification": "Plane",
         "keywords": {
           "Era": [
             "Late"
@@ -2230,8 +2138,7 @@
           "Speed": {
             "statType": "rank"
           }
-        },
-        "designation": "Ufag C.I"
+        }
       },
       "Roster§Squadron": {
         "allowed": {
@@ -2247,17 +2154,13 @@
           "Type": "conceptual",
           "Unique": true
         },
-        "classification": "Roster",
         "stats": {
           "Points": {
             "tracked": true
           }
-        },
-        "designation": "Squadron"
+        }
       }
     },
     "gameModes": {}
-  },
-  "revision": null,
-  "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution."
+  }
 }
