@@ -1,12 +1,12 @@
 {
   "name": "Wings of Glory",
-  "revision": "0.1.1",
+  "revision": "0.1.2",
   "game": "Wings of Glory WWI",
   "genre": "generic",
   "publisher": "Ares",
   "url": "https://www.aresgames.eu/category/games/ww1-wings-of-glory-games",
   "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution.",
-  "wip":true,
+  "wip": true,
   "manifest": {
     "assetTaxonomy": {
       "Bomber": {
@@ -21,149 +21,149 @@
             "label": "Ce"
           },
           "Climb": {
-            "statOrder": 5,
-            "label": "Cl"
+            "label": "Cl",
+            "statOrder": 5
           },
           "Damage Front": {
-            "label": "Df",
-            "groupOrder": 2,
             "group": "Damage",
+            "groupOrder": 2,
+            "label": "Df",
             "ranks": {
               "0": {
-                "hotkey": "0",
                 "format": "-",
+                "hotkey": "0",
                 "order": 0
               },
               "1": {
-                "hotkey": "b",
                 "format": "B",
+                "hotkey": "b",
+                "order": 1,
                 "tracking": {
                   "Points": 28
-                },
-                "order": 1
+                }
               },
               "2": {
-                "hotkey": "a",
                 "format": "A",
+                "hotkey": "a",
+                "order": 2,
                 "tracking": {
                   "Points": 48
-                },
-                "order": 2
+                }
               },
               "3": {
-                "hotkey": "3",
                 "format": "AB",
+                "hotkey": "3",
+                "order": 3,
                 "tracking": {
                   "Points": 72
-                },
-                "order": 3
+                }
               }
             },
             "statType": "rank"
           },
           "Damage Rear": {
-            "label": "Dr",
-            "groupOrder": 2,
             "group": "Damage",
+            "groupOrder": 2,
+            "label": "Dr",
             "ranks": {
               "0": {
-                "hotkey": "0",
                 "format": "-",
+                "hotkey": "0",
                 "order": 0
               },
               "1": {
-                "hotkey": "b",
                 "format": "B",
+                "hotkey": "b",
+                "order": 1,
                 "tracking": {
                   "Points": 28
-                },
-                "order": 1
+                }
               },
               "2": {
-                "hotkey": "a",
                 "format": "A",
+                "hotkey": "a",
+                "order": 2,
                 "tracking": {
                   "Points": 48
-                },
-                "order": 2
+                }
               },
               "3": {
-                "hotkey": "3",
                 "format": "BBBB",
+                "hotkey": "3",
+                "order": 3,
                 "tracking": {
                   "Points": 112
-                },
-                "order": 3
+                }
               }
             },
             "statType": "rank"
           },
           "Health": {
-            "statOrder": 3,
-            "label": "H"
+            "label": "H",
+            "statOrder": 3
           },
           "Maneuver": {
-            "statOrder": 1,
-            "label": "M",
-            "groupOrder": 1,
             "group": "Movement",
+            "groupOrder": 1,
+            "label": "M",
             "ranks": {
               "0": {
-                "hotkey": "0",
                 "format": "-",
+                "hotkey": "0",
                 "order": 0
               },
               "1": {
-                "hotkey": "a",
                 "format": "XA",
+                "hotkey": "a",
                 "order": 1
               },
               "2": {
-                "hotkey": "b",
                 "format": "XB",
+                "hotkey": "b",
                 "order": 2
               },
               "3": {
-                "hotkey": "c",
                 "format": "XC",
+                "hotkey": "c",
                 "order": 3
               },
               "4": {
-                "hotkey": "d",
                 "format": "XD",
+                "hotkey": "d",
                 "order": 4
               }
             },
+            "statOrder": 1,
             "statType": "rank"
           },
           "Points": {
             "tracked": true
           },
           "Speed": {
-            "statOrder": 4,
-            "label": "Sp",
-            "groupOrder": 1,
             "group": "Movement",
+            "groupOrder": 1,
+            "label": "Sp",
             "ranks": {
               "0": {
-                "hotkey": "0",
                 "format": "-",
+                "hotkey": "0",
                 "order": 0
               },
               "2": {
                 "format": "2.0",
-                "order": 1,
-                "number": 2
+                "number": 2,
+                "order": 1
               },
               "2.3": {
-                "order": 2,
-                "number": 2.3
+                "number": 2.3,
+                "order": 2
               },
               "2.6": {
-                "order": 3,
-                "number": 2.6
+                "number": 2.6,
+                "order": 3
               }
             },
+            "statOrder": 4,
             "statType": "rank"
           }
         }
@@ -180,332 +180,332 @@
             "label": "Ce"
           },
           "Climb": {
-            "statOrder": 5,
-            "label": "Cl"
+            "label": "Cl",
+            "statOrder": 5
           },
           "Damage Front": {
-            "label": "Df",
-            "groupOrder": 2,
             "group": "Damage",
+            "groupOrder": 2,
+            "label": "Df",
             "ranks": {
               "0": {
-                "hotkey": "0",
                 "format": "-",
+                "hotkey": "0",
                 "order": 0
               },
               "1": {
-                "hotkey": "b",
                 "format": "B",
+                "hotkey": "b",
+                "order": 1,
                 "tracking": {
                   "Points": 28
-                },
-                "order": 1
+                }
               },
               "2": {
-                "hotkey": "a",
                 "format": "A",
+                "hotkey": "a",
+                "order": 2,
                 "tracking": {
                   "Points": 48
-                },
-                "order": 2
+                }
               },
               "3": {
-                "hotkey": "3",
                 "format": "AB",
+                "hotkey": "3",
+                "order": 3,
                 "tracking": {
                   "Points": 72
-                },
-                "order": 3
+                }
               }
             },
             "statType": "rank"
           },
           "Damage Rear": {
+            "group": "Damage",
+            "groupOrder": 2,
             "label": "Dr",
             "ranks": {
               "-": {
-                "order": 0,
-                "hotkey": "0"
+                "hotkey": "0",
+                "order": 0
               },
               "A": {
-                "order": 1,
                 "hotkey": "a",
+                "order": 1,
                 "tracking": {
                   "Points": 48
                 }
               },
               "B": {
-                "order": 2,
                 "hotkey": "b",
+                "order": 2,
                 "tracking": {
                   "Points": 28
                 }
               },
               "BB": {
-                "order": 3,
                 "hotkey": "2",
+                "order": 3,
                 "tracking": {
                   "Points": 113
                 }
               },
               "BBBB": {
-                "order": 4,
                 "hotkey": "4",
+                "order": 4,
                 "tracking": {
                   "Points": 112
                 }
               }
             },
-            "group": "Damage",
-            "groupOrder": 2,
             "statType": "rank"
           },
           "Health": {
-            "statOrder": 3,
-            "label": "H"
+            "label": "H",
+            "statOrder": 3
           },
           "Maneuver": {
-            "statOrder": 1,
-            "label": "M",
-            "groupOrder": 1,
             "group": "Movement",
+            "groupOrder": 1,
+            "label": "M",
             "ranks": {
               "0": {
-                "hotkey": "0",
                 "format": "-",
+                "hotkey": "0",
                 "order": 0
               },
               "1": {
-                "hotkey": "a",
                 "format": "A",
+                "hotkey": "a",
+                "order": 1,
                 "tracking": {
                   "Points": 8
-                },
-                "order": 1
+                }
               },
               "2": {
-                "hotkey": "b",
                 "format": "B",
+                "hotkey": "b",
+                "order": 2,
                 "tracking": {
                   "Points": 8
-                },
-                "order": 2
+                }
               },
               "3": {
-                "hotkey": "c",
                 "format": "C",
+                "hotkey": "c",
+                "order": 3,
                 "tracking": {
                   "Points": 14
-                },
-                "order": 3
+                }
               },
               "4": {
-                "hotkey": "d",
                 "format": "D",
+                "hotkey": "d",
+                "order": 4,
                 "tracking": {
                   "Points": 13
-                },
-                "order": 4
+                }
               },
               "5": {
-                "hotkey": "e",
                 "format": "E",
+                "hotkey": "e",
+                "order": 5,
                 "tracking": {
                   "Points": 8
-                },
-                "order": 5
+                }
               },
               "6": {
-                "hotkey": "f",
                 "format": "F",
+                "hotkey": "f",
+                "order": 6,
                 "tracking": {
                   "Points": 14
-                },
-                "order": 6
+                }
               },
               "8": {
-                "hotkey": "h",
                 "format": "H",
+                "hotkey": "h",
+                "order": 8,
                 "tracking": {
                   "Points": 6
-                },
-                "order": 8
+                }
               },
               "9": {
-                "hotkey": "i",
                 "format": "I",
+                "hotkey": "i",
+                "order": 9,
                 "tracking": {
                   "Points": 9
-                },
-                "order": 9
+                }
               },
               "10": {
-                "hotkey": "j",
                 "format": "J",
+                "hotkey": "j",
+                "order": 10,
                 "tracking": {
                   "Points": 7
-                },
-                "order": 10
+                }
               },
               "11": {
-                "hotkey": "k",
                 "format": "K",
+                "hotkey": "k",
+                "order": 11,
                 "tracking": {
                   "Points": 5
-                },
-                "order": 11
+                }
               },
               "12": {
-                "hotkey": "l",
                 "format": "L",
+                "hotkey": "l",
+                "order": 12,
                 "tracking": {
                   "Points": 21
-                },
-                "order": 12
+                }
               },
               "13": {
-                "hotkey": "m",
                 "format": "M",
+                "hotkey": "m",
+                "order": 13,
                 "tracking": {
                   "Points": 19
-                },
-                "order": 13
+                }
               },
               "14": {
-                "hotkey": "n",
                 "format": "N",
+                "hotkey": "n",
+                "order": 14,
                 "tracking": {
                   "Points": 14
-                },
-                "order": 14
+                }
               },
               "15": {
-                "hotkey": "o",
                 "format": "O",
+                "hotkey": "o",
+                "order": 15,
                 "tracking": {
                   "Points": 18
-                },
-                "order": 15
+                }
               },
               "16": {
-                "hotkey": "p",
                 "format": "P",
+                "hotkey": "p",
+                "order": 16,
                 "tracking": {
                   "Points": 8
-                },
-                "order": 16
+                }
               },
               "17": {
-                "hotkey": "q",
                 "format": "Q",
+                "hotkey": "q",
+                "order": 17,
                 "tracking": {
                   "Points": 10
-                },
-                "order": 17
+                }
               },
               "18": {
-                "hotkey": "r",
                 "format": "R",
+                "hotkey": "r",
+                "order": 18,
                 "tracking": {
                   "Points": 6
-                },
-                "order": 18
+                }
               },
               "19": {
-                "hotkey": "s",
                 "format": "S",
+                "hotkey": "s",
+                "order": 19,
                 "tracking": {
                   "Points": 7
-                },
-                "order": 19
+                }
               },
               "20": {
-                "hotkey": "t",
                 "format": "T",
+                "hotkey": "t",
+                "order": 20,
                 "tracking": {
                   "Points": 5
-                },
-                "order": 20
+                }
               },
               "21": {
-                "hotkey": "u",
                 "format": "U",
+                "hotkey": "u",
+                "order": 21,
                 "tracking": {
                   "Points": 14
-                },
-                "order": 21
+                }
               },
               "22": {
-                "hotkey": "v",
                 "format": "V",
+                "hotkey": "v",
+                "order": 22,
                 "tracking": {
                   "Points": 6
-                },
-                "order": 22
+                }
               },
               "23": {
-                "hotkey": "w",
                 "format": "W",
+                "hotkey": "w",
+                "order": 23,
                 "tracking": {
                   "Points": 9
-                },
-                "order": 23
+                }
               },
               "24": {
-                "hotkey": "x",
                 "format": "X",
+                "hotkey": "x",
+                "order": 24,
                 "tracking": {
                   "Points": 11
-                },
-                "order": 24
+                }
               },
               "25": {
-                "hotkey": "y",
                 "format": "Y",
+                "hotkey": "y",
+                "order": 25,
                 "tracking": {
                   "Points": 4
-                },
-                "order": 25
+                }
               }
             },
+            "statOrder": 1,
             "statType": "rank"
           },
           "Points": {
             "tracked": true
           },
           "Speed": {
-            "statOrder": 4,
-            "label": "Sp",
-            "groupOrder": 1,
             "group": "Movement",
+            "groupOrder": 1,
+            "label": "Sp",
             "ranks": {
               "0": {
-                "hotkey": "0",
                 "format": "-",
+                "hotkey": "0",
                 "order": 0
               },
               "6": {
-                "hotkey": "6",
                 "format": "6.0",
-                "order": 4,
-                "number": 6
+                "hotkey": "6",
+                "number": 6,
+                "order": 4
               },
               "2.9": {
                 "hotkey": "2",
-                "order": 1,
-                "number": 2.9
+                "number": 2.9,
+                "order": 1
               },
               "3.5": {
                 "hotkey": "3",
-                "order": 2,
-                "number": 3.5
+                "number": 3.5,
+                "order": 2
               },
               "4.7": {
                 "hotkey": "4",
-                "order": 3,
-                "number": 4.7
+                "number": 4.7,
+                "order": 3
               }
             },
+            "statOrder": 4,
             "statType": "rank"
           }
         }
@@ -521,26 +521,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Climb": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "Damage Rear": {
             "statType": "rank"
           },
           "Health": {
-            "value": 25,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 25
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 87,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 87
           },
           "Speed": {
             "statType": "rank"
@@ -556,26 +556,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 13,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 13
           },
           "Climb": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Damage Rear": {
             "statType": "rank"
           },
           "Health": {
-            "value": 27,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 27
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 86,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 86
           },
           "Speed": {
             "statType": "rank"
@@ -591,27 +591,27 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 7,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 7
           },
           "Climb": {
-            "value": 7,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 7
           },
           "Damage Front": {},
           "Damage Rear": {
             "statType": "rank"
           },
           "Health": {
-            "value": 30,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 30
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 101,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 101
           },
           "Speed": {
             "statType": "rank"
@@ -627,26 +627,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Climb": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           },
           "Damage Rear": {
             "statType": "rank"
           },
           "Health": {
-            "value": 34,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 34
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 99,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 99
           },
           "Speed": {
             "statType": "rank"
@@ -662,34 +662,34 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Climb": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Damage Rear": {
             "ranks": {
-              "B": {
-                "order": 0
-              },
               "A": {
                 "order": 1
+              },
+              "B": {
+                "order": 0
               }
             },
             "statType": "rank"
           },
           "Health": {
-            "value": 13,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 13
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 22,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 22
           },
           "Speed": {
             "statType": "rank"
@@ -705,12 +705,12 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 11,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 11
           },
           "Climb": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Damage Front": {
             "dynamic": true,
@@ -720,15 +720,15 @@
             "dynamic": true
           },
           "Health": {
-            "value": 15,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 15
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 27,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 27
           },
           "Speed": {
             "statType": "rank"
@@ -743,27 +743,27 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 11,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 11
           },
           "Climb": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Damage Front": {
             "dynamic": true,
             "statType": "rank"
           },
           "Health": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 24,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 24
           },
           "Speed": {
             "statType": "rank"
@@ -778,26 +778,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 11,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 11
           },
           "Climb": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 24,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 24
           },
           "Speed": {
             "statType": "rank"
@@ -813,26 +813,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 13,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 13
           },
           "Climb": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 15,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 15
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 26,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 26
           },
           "Speed": {
             "statType": "rank"
@@ -847,26 +847,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           },
           "Climb": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           },
           "Damage Rear": {
             "statType": "rank"
           },
           "Health": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 21,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 21
           },
           "Speed": {
             "statType": "rank"
@@ -882,27 +882,27 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Damage Front": {
             "dynamic": true,
             "statType": "rank"
           },
           "Health": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 24,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 24
           },
           "Speed": {
             "statType": "rank"
@@ -918,26 +918,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Climb": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Damage Rear": {
             "statType": "rank"
           },
           "Health": {
-            "value": 17,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 17
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 28,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 28
           },
           "Speed": {
             "statType": "rank"
@@ -953,12 +953,12 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Climb": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Damage Front": {
             "dynamic": true,
@@ -968,15 +968,15 @@
             "dynamic": true
           },
           "Health": {
-            "value": 17,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 17
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 29,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 29
           },
           "Speed": {
             "statType": "rank"
@@ -992,12 +992,12 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Damage Front": {
             "dynamic": true,
@@ -1007,15 +1007,15 @@
             "dynamic": true
           },
           "Health": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 28,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 28
           },
           "Speed": {
             "statType": "rank"
@@ -1030,23 +1030,23 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 9,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 9
           },
           "Climb": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "Health": {
-            "value": 11,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 11
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 15,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 15
           },
           "Speed": {
             "statType": "rank"
@@ -1061,26 +1061,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 31,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 31
           },
           "Speed": {
             "statType": "rank"
@@ -1096,26 +1096,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 13,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 13
           },
           "Climb": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 13,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 13
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 24,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 24
           },
           "Speed": {
             "statType": "rank"
@@ -1130,23 +1130,23 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 9,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 9
           },
           "Climb": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "Health": {
-            "value": 11,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 11
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 15,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 15
           },
           "Speed": {
             "statType": "rank"
@@ -1162,26 +1162,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 15,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 15
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 27,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 27
           },
           "Speed": {
             "statType": "rank"
@@ -1197,26 +1197,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Climb": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Damage Rear": {
             "statType": "rank"
           },
           "Health": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 28,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 28
           },
           "Speed": {
             "statType": "rank"
@@ -1232,23 +1232,23 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Climb": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Health": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 24,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 24
           },
           "Speed": {
             "statType": "rank"
@@ -1264,26 +1264,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
           },
           "Climb": {
-            "value": 15,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 15
           },
           "Damage Rear": {
             "statType": "rank"
           },
           "Health": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 28,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 28
           },
           "Speed": {
             "statType": "rank"
@@ -1299,27 +1299,27 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Damage Front": {
             "dynamic": true,
             "statType": "rank"
           },
           "Health": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 25,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 25
           },
           "Speed": {
             "statType": "rank"
@@ -1335,26 +1335,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 15,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 15
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 27,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 27
           },
           "Speed": {
             "statType": "rank"
@@ -1369,23 +1369,23 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 9,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 9
           },
           "Climb": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "Health": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 13,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 13
           },
           "Speed": {
             "statType": "rank"
@@ -1400,23 +1400,23 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 11,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 11
           },
           "Climb": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Health": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Speed": {
             "statType": "rank"
@@ -1431,16 +1431,16 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Climb": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Health": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Maneuver": {
             "statType": "rank"
@@ -1459,27 +1459,27 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Climb": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Damage Front": {
             "dynamic": true,
             "statType": "rank"
           },
           "Health": {
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 19,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 19
           },
           "Speed": {
             "statType": "rank"
@@ -1495,23 +1495,23 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Climb": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Health": {
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 19,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 19
           },
           "Speed": {
             "statType": "rank"
@@ -1527,26 +1527,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 13,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 13
           },
           "Climb": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 25,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 25
           },
           "Speed": {
             "statType": "rank"
@@ -1562,26 +1562,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 11,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 11
           },
           "Climb": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 28,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 28
           },
           "Speed": {
             "statType": "rank"
@@ -1597,26 +1597,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 13,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 13
           },
           "Climb": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 15,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 15
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 25,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 25
           },
           "Speed": {
             "statType": "rank"
@@ -1631,26 +1631,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Climb": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Damage Rear": {
             "statType": "rank"
           },
           "Health": {
-            "value": 13,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 13
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 20,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 20
           },
           "Speed": {
             "statType": "rank"
@@ -1666,27 +1666,27 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Climb": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Damage Front": {},
           "Damage Rear": {
             "dynamic": true
           },
           "Health": {
-            "value": 15,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 15
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 31,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 31
           },
           "Speed": {
             "statType": "rank"
@@ -1702,26 +1702,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Damage Rear": {
             "statType": "rank"
           },
           "Health": {
-            "value": 15,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 15
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 24,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 24
           },
           "Speed": {
             "statType": "rank"
@@ -1737,26 +1737,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": -61,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": -61
           },
           "Speed": {
             "statType": "rank"
@@ -1772,26 +1772,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 30,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 30
           },
           "Speed": {
             "statType": "rank"
@@ -1806,26 +1806,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 17,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 17
           },
           "Climb": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 27,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 27
           },
           "Speed": {
             "statType": "rank"
@@ -1841,26 +1841,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 10,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 10
           },
           "Climb": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Damage Rear": {
             "statType": "rank"
           },
           "Health": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 24,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 24
           },
           "Speed": {
             "statType": "rank"
@@ -1876,26 +1876,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 11,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 11
           },
           "Climb": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 24,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 24
           },
           "Speed": {
             "statType": "rank"
@@ -1911,26 +1911,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 13,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 13
           },
           "Climb": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 15,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 15
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 24,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 24
           },
           "Speed": {
             "statType": "rank"
@@ -1945,16 +1945,16 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Climb": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Health": {
-            "value": 12,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 12
           },
           "Maneuver": {
             "statType": "rank"
@@ -1972,26 +1972,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 30,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 30
           },
           "Speed": {
             "statType": "rank"
@@ -2007,27 +2007,27 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Damage Front": {
             "dynamic": true,
             "statType": "rank"
           },
           "Health": {
-            "value": 13,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 13
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 24,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 24
           },
           "Speed": {
             "statType": "rank"
@@ -2042,23 +2042,23 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Health": {
-            "value": 15,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 15
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 30,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 30
           },
           "Speed": {
             "statType": "rank"
@@ -2074,26 +2074,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 14,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 14
           },
           "Climb": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Damage Front": {
             "statType": "rank"
           },
           "Health": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 29,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 29
           },
           "Speed": {
             "statType": "rank"
@@ -2108,26 +2108,26 @@
         },
         "stats": {
           "Ceiling": {
-            "value": 11,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 11
           },
           "Climb": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Damage Rear": {
             "statType": "rank"
           },
           "Health": {
-            "value": 16,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 16
           },
           "Maneuver": {
             "statType": "rank"
           },
           "Points": {
-            "value": 21,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 21
           },
           "Speed": {
             "statType": "rank"
