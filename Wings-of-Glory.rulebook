@@ -5,9 +5,9 @@
   "genre": "generic",
   "publisher": "Ares",
   "url": "https://www.aresgames.eu/category/games/ww1-wings-of-glory-games",
-  "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution.",
+  "notes": "This rulebook is provided for the purposes of testing *Rosterizer* and is not intended for distribution.",
   "wip": true,
-  "manifest": {
+  "rulebook": {
     "assetTaxonomy": {
       "Bomber": {
         "aspects": {
