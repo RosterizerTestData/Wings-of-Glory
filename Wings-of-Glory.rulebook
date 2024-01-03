@@ -2134,7 +2134,7 @@
           }
         }
       },
-      "Roster§Squadron": {
+      "Roster§Roster": {
         "allowed": {
           "classifications": [
             "Bomber",
@@ -2144,6 +2144,7 @@
         "aspects": {
           "Describe": true,
           "Lock Qty": true,
+          "Label": "Squadron",
           "Rename": true,
           "Type": "conceptual",
           "Unique": true
